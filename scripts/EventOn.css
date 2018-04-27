@@ -1,0 +1,15 @@
+table{
+    width: 500px;
+}
+
+.Highlight{
+    background-color: purple;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt
+}
+
+.HighlightSelection{
+    background-color: green;
+    color: black
+}

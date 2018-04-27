@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="..\jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="scripts\EventOn.css">
+    <script src="scripts\EventOn.js"></script>
+    <script>
+        $(function(){
+            var pEvt = new Gus.ExJqEvents.ParentEvent();
+            pEvt.tbodyEvt('#customers tbody');s
+            pEvt.addRowToTable('#AddRow');
+            pEvt.removeClsFunc('#customers tr');
+            pEvt.onHover('#customers tr');
+            //pEvt.onHover2('#customers tr')
+        });
+    
+    </script>
+    
+</head>
+<body>
+    <div id="selectedPerson">Hi</div>
+    <button id='AddRow'>Add Row</button>
+    <table id="customers" >
+        <tr class="Highlight">
+            <td style="width:30%;">Jim</td>
+            <td style="width:70%;">Hill</td>
+        </tr>
+        <tr class="Highlight">
+            <td>Bob</td>
+            <td>Crane</td>
+        </tr>
+        <tr class="Highlight">
+            <td>Phil</td>
+            <td>barker</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
