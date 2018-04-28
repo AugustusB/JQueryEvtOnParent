@@ -12,6 +12,9 @@
             "file": "${workspaceRoot}/EventOn.html",
             "skipFiles": [
                 "jquery-2.1.1.js"
+            ],
+            "runtimeArgs": [
+                "--allow-file-access-from-files"
             ]
         }
     ]
